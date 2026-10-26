@@ -15,40 +15,40 @@ public class Main {
       {
         case 1:
           System.out.println("Podaj pierwsza liczbe ");
-          int Liczba_1 = scanner.nextInt();
+          double Liczba_1 = scanner.nextInt();
 
           System.out.println("Podaj druga liczbe ");
-          int Liczba_2 = scanner.nextInt();
+          double Liczba_2 = scanner.nextInt();
 
           System.out.println("Suma liczb podanych przez uzytkownika: ");
           System.out.println(Liczba_1+Liczba_2);
           break;
         case 2:
           System.out.println("Podaj pierwsza liczbe ");
-          int Liczba_1_roznica = scanner.nextInt();
+          double Liczba_1_roznica = scanner.nextInt();
 
           System.out.println("Podaj druga liczbe ");
-          int Liczba_2_roznica = scanner.nextInt();
+          double Liczba_2_roznica = scanner.nextInt();
 
           System.out.println("Roznica liczb podanych przez uzytkownika: ");
           System.out.println(Liczba_1_roznica-Liczba_2_roznica);
           break;
         case 3:
           System.out.println("Podaj pierwsza liczbe ");
-          int Liczba_1_iloczyn = scanner.nextInt();
+          double Liczba_1_iloczyn = scanner.nextInt();
 
           System.out.println("Podaj druga liczbe ");
-          int Liczba_2_iloczyn = scanner.nextInt();
+          double Liczba_2_iloczyn = scanner.nextInt();
           System.out.println("Iloczyn liczb podanych przez uzytkownika: ");
           System.out.println(Liczba_1_iloczyn*Liczba_2_iloczyn);
           break;
           
         case 4:
           System.out.println("Podaj pierwsza liczbe ");
-          int Liczba_1_iloraz = scanner.nextInt();
+          double Liczba_1_iloraz = scanner.nextInt();
 
           System.out.println("Podaj druga liczbe ");
-          int Liczba_2_iloraz = scanner.nextInt();
+          double Liczba_2_iloraz = scanner.nextInt();
           if(Liczba_2_iloraz==0)
           {
             System.out.println("Nie mozna dzielic przez 0.");
